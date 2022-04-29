@@ -16,4 +16,6 @@ book["bob"] = {
 
 import json
 s = json.dumps(book)
-print(s)
+with open("C://Users//Waburi Brian//PycharmProjects//Data//book.txt","w") as f:
+    f.write(s)
+
